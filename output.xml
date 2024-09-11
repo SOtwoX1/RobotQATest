@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.3 on win32)" generated="2024-09-11T23:51:06.337681" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="c:\Users\sirat\OneDrive\Desktop\skill\Project-EZtest\Project-Starter-Pack\Robot\login_test.robot">
+<test id="s1-t1" name="Valid Login" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:51:06.521995" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5173/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-11T23:51:06.521476" elapsed="1.467851"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:51:07.991336" level="INFO">Typing text 'otwo' into text field 'id=username'.</msg>
+<arg>id=username</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:51:07.990333" elapsed="0.092239"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:51:08.083572" level="INFO">Typing text '1111' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:51:08.082572" elapsed="0.064421"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:51:08.146993" level="INFO">Clicking button 'id=loginButton'.</msg>
+<arg>id=loginButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:51:08.146993" elapsed="0.047536"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-11T23:51:08.195521" elapsed="2.107227"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" start="2024-09-11T23:51:06.520452" elapsed="3.783295"/>
+</test>
+<status status="PASS" start="2024-09-11T23:51:06.342352" elapsed="3.962396"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login Test">Login Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

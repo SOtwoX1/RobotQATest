@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.3 on win32)" generated="2024-09-11T23:55:23.698428" rpa="false" schemaversion="5">
+<suite id="s1" name="Project-EZtest" source="C:\Users\sirat\OneDrive\Desktop\skill\Project-EZtest">
+<suite id="s1-s1" name="Project-login" source="C:\Users\sirat\OneDrive\Desktop\skill\Project-EZtest\Project-login">
+<suite id="s1-s1-s1" name="Robot" source="C:\Users\sirat\OneDrive\Desktop\skill\Project-EZtest\Project-login\Robot">
+<suite id="s1-s1-s1-s1" name="Login Test" source="C:\Users\sirat\OneDrive\Desktop\skill\Project-EZtest\Project-login\Robot\login_test.robot">
+<test id="s1-s1-s1-s1-t1" name="Valid Login" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:23.875939" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5173/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-11T23:55:23.874902" elapsed="1.838561"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:25.715477" level="INFO">Typing text 'otwo' into text field 'id=username'.</msg>
+<arg>id=username</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:55:25.714464" elapsed="0.097725"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:25.813203" level="INFO">Typing text '1111' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:55:25.812189" elapsed="0.071077"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:25.884773" level="INFO">Clicking button 'id=loginButton'.</msg>
+<arg>id=loginButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:55:25.883266" elapsed="0.046032"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-11T23:55:25.930298" elapsed="2.121871"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" start="2024-09-11T23:55:23.873885" elapsed="4.178789"/>
+</test>
+<test id="s1-s1-s1-s1-t2" name="Invalid Login" line="20">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:28.054680" level="INFO">Opening browser 'chrome' to base url 'http://localhost:5173/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-11T23:55:28.053679" elapsed="1.317815"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:29.371494" level="INFO">Typing text 'wrong_username' into text field 'id=username'.</msg>
+<arg>id=username</arg>
+<arg>wrong_username</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:55:29.371494" elapsed="0.120262"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:29.492756" level="INFO">Typing text 'wrong_password' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>wrong_password</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:55:29.491756" elapsed="0.090706"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-09-11T23:55:29.583462" level="INFO">Clicking button 'id=loginButton'.</msg>
+<arg>id=loginButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-11T23:55:29.583462" elapsed="0.042107"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-11T23:55:29.626072" elapsed="2.115431"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" start="2024-09-11T23:55:28.053679" elapsed="3.687824"/>
+</test>
+<status status="PASS" start="2024-09-11T23:55:23.725511" elapsed="8.016998"/>
+</suite>
+<status status="PASS" start="2024-09-11T23:55:23.724512" elapsed="8.019991"/>
+</suite>
+<status status="PASS" start="2024-09-11T23:55:23.722506" elapsed="8.021997"/>
+</suite>
+<status status="PASS" start="2024-09-11T23:55:23.706938" elapsed="8.038571"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Project-EZtest">Project-EZtest</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Project-login">Project-EZtest.Project-login</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1" name="Robot">Project-EZtest.Project-login.Robot</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1-s1" name="Login Test">Project-EZtest.Project-login.Robot.Login Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
