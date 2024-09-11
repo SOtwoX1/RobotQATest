@@ -24,7 +24,7 @@ Clone the Repository:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SOtwoX1/RobotQATest.git
-   cd Project-Starter-Pack
+   cd RobotQATest
 
 2. Install dependencies: Navigate to both the frontend and backend directories and install the required packages:
     ```bash
