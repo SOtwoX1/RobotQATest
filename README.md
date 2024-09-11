@@ -1,31 +1,23 @@
-# Project Starter Pack 🚀
+# Project RobotQATest-EZtest 🚀
 
-Welcome to the Project Starter Pack! This repository provides a boilerplate setup for starting new web development projects, featuring a modern stack and best practices to kickstart your development process.
+RobotQATest
+Overview
+RobotQATest is a repository for testing automation using the Robot Framework. This project includes various test cases and configurations to help streamline the QA process and ensure high-quality software delivery.
 
-## Features
-
-- **Pre-configured Environment**: Includes a basic setup for both frontend and backend development.
-- **Development Tools**: Integrated tools for linting, formatting, and building your application.
-- **Example Configurations**: Sample configuration files for popular services and libraries.
-- **Responsive Design**: Basic styling setup using Tailwind CSS for responsive design.
-
-## Technologies Used
-
-- **Frontend**: React.js, Vite.js
-- **Backend**: Node.js,
-- **Database**: MongoDB (with Mongoose)
-- **Styling**: CSS
-- **Development Tools**: ESLint, Prettier
-
-## Getting Started
-
-Follow these steps to set up your development environment:
-
-### Prerequisites
-
+Features
+Robot Framework Integration: Utilizes the Robot Framework for keyword-driven testing.
+Comprehensive Test Cases: Includes a range of test cases for different functionalities.
+Custom Keywords: Define and use custom keywords tailored to your testing needs.
+Reporting: Generates detailed test reports and logs for easy analysis.
+Getting Started
+Prerequisites
 Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [MongoDB](https://www.mongodb.com/) (or a MongoDB Atlas account for cloud-based database)
+
+Python 3.6 or higher
+Robot Framework
+Required libraries (see requirements.txt for details)
+Installation
+Clone the Repository:
 
 ### Installation
 
@@ -61,34 +53,7 @@ Run the application:
           cd ../frontend
           npm start
 
-RobotQATest
-Overview
-RobotQATest is a repository for testing automation using the Robot Framework. This project includes various test cases and configurations to help streamline the QA process and ensure high-quality software delivery.
-
-Features
-Robot Framework Integration: Utilizes the Robot Framework for keyword-driven testing.
-Comprehensive Test Cases: Includes a range of test cases for different functionalities.
-Custom Keywords: Define and use custom keywords tailored to your testing needs.
-Reporting: Generates detailed test reports and logs for easy analysis.
-Getting Started
-Prerequisites
-Ensure you have the following installed:
-
-Python 3.6 or higher
-Robot Framework
-Required libraries (see requirements.txt for details)
-Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/SOtwoX1/RobotQATest.git
-cd RobotQATest
-
 Access the application: Open your browser and navigate to http://localhost:3000 to view the frontend. The backend will be accessible on http://localhost:5000.
-
-### Usage
-This starter pack provides a foundation for building full-stack web applications. Customize the configurations, add your own components, and integrate additional features as needed.
 
 ### Contact
 For questions or feedback, please reach out:
